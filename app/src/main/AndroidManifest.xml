@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loginmll">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icons_male_user"
+        android:label="Điểm Danh"
+        android:roundIcon="@drawable/icons_male_user"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register"/>
+        <activity android:name=".ForgetPass" />
+        <activity android:name=".ChangePass" />
+        <activity android:name=".InfUser" />
+        <activity android:name=".UpdateUser" />
+        <activity android:name=".ThemThongBao" />
+        <activity android:name=".ListThongBao" />
+        <activity android:name=".User" />
+        <activity android:name=".GhiDanh" />
+        <activity android:name=".ListThongKe" />
+<!--        <activity android:name=".FingerprintActivity" />-->
+
+
+
+
+
+
+    </application>
+
+</manifest>

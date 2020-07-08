@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTHANG"
+        android:layout_width="147sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_marginBottom="21dp"
+        android:text="THÁNG NÀY"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/listviewThongKe"
+        app:layout_constraintEnd_toStartOf="@+id/imgNext"
+        app:layout_constraintStart_toEndOf="@+id/imgBack"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgNext"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/nextxx"
+        app:layout_constraintBottom_toTopOf="@+id/listviewThongKe"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/backx"
+        app:layout_constraintBottom_toTopOf="@+id/listviewThongKe"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/listviewThongKe"
+        android:layout_width="369dp"
+        android:layout_height="444dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTHANG" />
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:background="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/buttonTK"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+
+            android:background="#03A9F4"
+            android:text="TÀI KHOẢN"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonND"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+
+            android:background="#03A9F4"
+            android:text="DS. NHÂN VIÊN"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonTK"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonThongbao"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+
+            android:background="#03A9F4"
+            android:text="THÔNG BÁO"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonTK"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textThang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="THỐNG KÊ SỐ NGÀY LÀM TRONG THÁNG"
+        android:textAlignment="center"
+        android:textColor="#040750"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

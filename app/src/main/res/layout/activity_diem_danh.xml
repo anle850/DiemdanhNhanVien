@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <DatePicker
+        android:id="@+id/date_picker"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_margin="11dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvDDSV"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/txtvDDSV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="ĐIỂM DANH"
+        android:textAlignment="center"
+        android:textColor="#040750"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="58dp" />
+
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonTK"-->
+<!--        android:layout_width="205sp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:background="#03A9F4"-->
+<!--        android:text="TÀI KHOẢN"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/buttonTB"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonTB"-->
+<!--        android:layout_width="205sp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:background="#03A9F4"-->
+<!--        android:text="THÔNG BÁO"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        tools:ignore="MissingConstraints" />-->
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:background="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/buttonTK"
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+            android:background="#03A9F4"
+            android:text="TÀI KHOẢN"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonTB"
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+
+            android:background="#03A9F4"
+            android:text="THÔNG BÁO"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonTK"
+            tools:ignore="MissingConstraints" />
+
+<!--        <Button-->
+<!--            android:id="@+id/buttonThongbao"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:background="#03A9F4"-->
+<!--            android:text="NGƯỜI DÙNG"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/buttonTK"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/update_date_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/custom_button"
+        android:text="GHI DANH"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_picker"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

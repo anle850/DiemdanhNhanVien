@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ListView
+        android:id="@+id/listUser"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/buttonThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/listUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/icon_add"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="30dp"
+        android:text="DANH SÁCH NHÂN VIÊN"
+        android:textColor="#040750"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        //app:layout_constraintEnd_toStartOf="@+id/imageViewThem"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:background="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/buttonTK"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:background="#03A9F4"
+            android:text="TÀI KHOẢN"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonThongke"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:background="#03A9F4"
+            android:text="THỐNG KÊ"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonTK"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonThongbao"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:background="#03A9F4"
+            android:text="THÔNG BÁO"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonTK"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/imageViewThem"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="43dp"-->
+<!--        android:src="@drawable/them"-->
+<!--        tools:layout_editor_absoluteX="410dp"-->
+<!--        tools:layout_editor_absoluteY="16dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+</android.support.constraint.ConstraintLayout>

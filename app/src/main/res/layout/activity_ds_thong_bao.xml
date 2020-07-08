@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ListView
+        android:id="@+id/listThongBao"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints"></ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/buttonThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/listThongBao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/icon_add"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="30dp"
+        android:text="DANH SÁCH THÔNG BÁO"
+        android:textStyle="bold"
+        android:textColor="#040750"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+     />
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonTK"-->
+<!--        android:layout_width="215sp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:background="#03A9F4"-->
+<!--        android:text="TÀI KHOẢN"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonND"-->
+<!--        android:layout_width="215sp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:background="#03A9F4"-->
+<!--        android:text="NGƯỜI DÙNG"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/buttonTK"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+    <LinearLayout
+        android:id="@+id/buttonofadmin"
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:background="#03A9F4"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/buttonTK"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+
+            android:background="#03A9F4"
+            android:text="TÀI KHOẢN"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonND"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+
+            android:background="#03A9F4"
+            android:text="DS. NHÂN VIÊN"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonTK"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonThongke"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+
+            android:background="#03A9F4"
+            android:text="THỐNG KÊ"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonTK"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/buttonofnv"
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:background="#03A9F4"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/buttondiemdanh"
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+
+            android:background="#03A9F4"
+            android:text="ĐIỂM DANH"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttontaikhoan"
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+
+            android:background="#03A9F4"
+            android:text="TÀI KHOẢN"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonTK"
+            tools:ignore="MissingConstraints" />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
