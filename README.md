@@ -3,8 +3,9 @@
 # Giới thiệu
 Mục tiêu của project:
 
-*Tạo một ứng dụng android dùng để điểm danh nhân viên cho một công ty với quy mô nhỏ, ứng dụng sau khi hoàn thiện cần phải đáp ứng được các tiêu chí sau:
-*Giao diện đơn giản, dễ tiếp cận, dễ thao tác.
+Tạo một ứng dụng android dùng để điểm danh nhân viên cho một công ty với quy mô nhỏ, ứng dụng sau khi hoàn thiện cần phải đáp ứng được các tiêu chí sau:
+
+Giao diện đơn giản, dễ tiếp cận, dễ thao tác.
 
 Giúp các nhân viên công ty nhanh chóng đăng nhập và điểm danh, admin dễ dàng thay đổi thông tin nhân viên.
 
