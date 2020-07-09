@@ -1,7 +1,6 @@
-# DiemdanhNhanVien
-#Tên đề tài: App điểm danh nhân viên
+#  Tên đề tài: App điểm danh nhân viên
 
-#Giới thiệu
+# Giới thiệu
 Mục tiêu của project:
 Tạo một ứng dụng android dùng để điểm danh nhân viên cho một công ty với quy mô nhỏ, ứng dụng sau khi hoàn thiện cần phải đáp ứng được các tiêu chí sau:
 Giao diện đơn giản, dễ tiếp cận, dễ thao tác.
@@ -9,11 +8,11 @@ Giúp các nhân viên công ty nhanh chóng đăng nhập và điểm danh, adm
 Dung lượng nhỏ phù hợp với những điện thoại cấu hình thấp.
 
 
-#Yêu cầu hệ thống
+# Yêu cầu hệ thống
 Android Studio
 Emulator hoặc điện thoại Android đã mở Developer Option
 
-#Các modules
+# Các modules
 Quản lý nhân viên dành cho admin:
 Chỉnh sửa thông tin nhân viên
 Chỉnh sửa thông báo
@@ -23,7 +22,7 @@ Dành cho user:
 Xem thông báo ngày nghỉ
 Thay đổi mật khẩu
 
-#Quy trình sử dụng
+# Quy trình sử dụng
 Admin:
 Nhập mã đăng nhập và mật khẩu
 Xem thống kê nhân viên đã điểm danh đủ chưa
