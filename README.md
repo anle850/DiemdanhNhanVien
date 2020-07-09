@@ -11,6 +11,14 @@ Mục tiêu của project:
 
 - Dung lượng nhỏ phù hợp với những điện thoại cấu hình thấp.
 
+# Các thành viên
+
+| STT| Họ tên         | MSSV                  |
+|:--:|----------------|------------------------|
+| 1  | Lê Nguyễn Tri Ân  | 17520209     |
+| 2  | Nguyễn Hải Đăng  | 17520318 |
+| 3  | Ngô Võ Thùy Trang | 17521152 |
+
 
 # Yêu cầu hệ thống
 - Android Studio
