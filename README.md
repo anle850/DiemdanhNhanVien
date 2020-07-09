@@ -10,6 +10,7 @@ Dung lượng nhỏ phù hợp với những điện thoại cấu hình thấp.
 
 # Yêu cầu hệ thống
 Android Studio
+
 Emulator hoặc điện thoại Android đã mở Developer Option
 
 # Các modules
